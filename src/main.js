@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import UIkit from "uikit";
+// import UIkit from "uikit";
 
 Vue.config.productionTip = false
 
