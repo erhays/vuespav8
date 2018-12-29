@@ -1,0 +1,14 @@
+// Add YOUR own global custom styles
+//
+$global-link-color: #4f1eff;
+$additional-styles: default;
+
+// Import uikit's default vars & mixins
+//
+@import "uikit/src/scss/variables.scss";
+@import "uikit/src/scss/mixins.scss";
+
+// Finally, import UIkit's individual modules
+//
+@import "uikit/src/scss/uikit.scss";
+
