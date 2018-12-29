@@ -1,6 +1,6 @@
 <template>
   <div class="hero-section">
-  <main class="uk-section uk-section-default">
+    <main class="uk-section uk-section-default">
       <router-view></router-view>
     </main>
     <footer class="uk-section tm-section-primary uk-section-xlarge uk-padding-remove-bottom">
@@ -13,14 +13,6 @@
 
 <script>
 export default {
-  name: 'HeroSection',
-  props: {
-    msg: String
-  }
-}
+  name: "HeroSection"
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
